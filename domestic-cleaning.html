@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Cleaning Services offers professional domestic cleaning in Nairobi. Affordable pricing, detailed tiers, easy online booking for house cleaning, deep cleaning, move-in/out in Westlands & Nairobi.">
+    <meta name="keywords" content="domestic cleaning in Nairobi, house cleaning Nairobi, deep cleaning Nairobi, cleaning prices Nairobi, book cleaning Nairobi">
+    <title>Domestic Cleaning Services in Nairobi | Best Cleaning Services</title>
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Domestic Cleaning in Nairobi | Pricing & Booking | Best Cleaning Services">
+    <meta property="og:description" content="Expert domestic cleaning in Nairobi from KSh 4,200. Regular, deep, move-in/out cleaning. Book online now. Westlands based.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.bestcleaningservices.co.ke/">
+    <meta property="og:image" content="https://example.com/cleaning-nairobi-hero.jpg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary-dark: #00008B; --primary-light: #0000CD; --grey-light: #f8f9fa; --white: #FFFFFF; }
+        body { font-family: 'Nunito', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.7; color: var(--primary-dark); }
+        .navbar, .footer { background: var(--primary-dark) !important; color: var(--white) !important; }
+        .section-bg { background: var(--grey-light); }
+        .btn-primary { background: var(--primary-dark); border-color: var(--primary-dark); }
+        .btn-primary:hover { background: var(--primary-light); border-color: var(--primary-light); }
+        .navbar-brand { font-weight: 800; font-size: 1.5rem; }
+        .hero-section { background: linear-gradient(rgba(0,0,139,0.85), rgba(0,0,139,0.7)), url('https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'); background-size: cover; background-position: center; color: #fff; min-height: 100vh; }
+        .price-card { border: 2px solid #dee2e6; border-radius: 16px; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); height: 100%; overflow: hidden; }
+        .price-card:hover { transform: translateY(-12px); box-shadow: 0 25px 50px -12px rgba(0,0,139,0.25); border-color: var(--primary-dark); }
+        .price-header { background: linear-gradient(135deg, var(--primary-dark), var(--primary-light)); color: #fff; padding: 2rem; }
+        .price-amount { font-size: 3.2rem; font-weight: 800; color: var(--primary-dark); }
+        .badge-popular { position: absolute; top: 1rem; right: 1rem; background: #dc3545; }
+        .floating-buttons { position: fixed; bottom: 30px; right: 30px; z-index: 1050; }
+        .floating-buttons .btn { width: 65px; height: 65px; border-radius: 50%; margin-bottom: 15px; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(0,0,0,0.2); transition: all 0.3s; }
+        .floating-buttons .btn:hover { transform: translateY(-3px); box-shadow: 0 12px 35px rgba(0,0,0,0.3); }
+        .card { border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-radius: 12px; transition: all 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+        .form-control:focus, .form-select:focus { border-color: var(--primary-dark); box-shadow: 0 0 0 0.25rem rgba(0,0,139,0.15); }
+        h1, h2, h3 { font-weight: 700; }
+        .display-4 { font-weight: 800; }
+        section { padding: 5rem 0; }
+        .navbar-nav .nav-link { font-weight: 600; }
+    </style>
+    <!-- Schema JSON-LD LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Best Cleaning Services",
+        "description": "Professional domestic cleaning services in Nairobi, Kenya. Regular, deep, move-in/out cleaning.",
+        "url": "https://www.bestcleaningservices.co.ke",
+        "telephone": "+254709004600",
+        "image": "https://example.com/logo.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Westlands Road",
+            "addressLocality": "Westlands, Nairobi",
+            "addressRegion": "Nairobi County",
+            "postalCode": "00100",
+            "addressCountry": "KE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -1.265,
+            "longitude": 36.811
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "18:00"
+        },
+        "priceRange": "$$",
+        "sameAs": ["https://wa.me/254709004600"],
+        "offers": [{
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Domestic cleaning in Nairobi",
+                "description": "Professional house cleaning services"
+            },
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "4200",
+                "priceCurrency": "KES",
+                "description": "Starting from 1-bedroom apartment regular cleaning"
+            }
+        }]
+    }
+    </script>
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "How much does domestic cleaning in Nairobi cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Regular domestic cleaning in Nairobi starts at KSh 4,200 for 1-bedroom apartments. Deep cleaning from KSh 9,500. Prices vary by size and condition."
+            }
+        }]
+    }
+    </script>
+</head>
+<body>
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">🏠 Best Cleaning Services</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#book">Book Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center text-white text-center py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <h1 class="display-3 fw-bold mb-4">Domestic Cleaning in Nairobi</h1>
+                    <p class="lead fs-3 mb-5">Best Cleaning Services delivers professional domestic cleaning in Nairobi. Reliable, affordable domestic cleaning in Nairobi for apartments & houses. Westlands-based experts serving all Nairobi areas with domestic cleaning in Nairobi – regular cleans, deep cleaning, move-in/out. Trusted domestic cleaning in Nairobi since 2010. Eco-friendly products, vetted staff, transparent pricing from KSh 4,200. Book domestic cleaning in Nairobi today for spotless results. Fast response across domestic cleaning in Nairobi needs – kitchens, bathrooms, carpets. Satisfaction guaranteed domestic cleaning in Nairobi. (248 words)</p>
+                    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <a href="tel:+254709004600" class="btn btn-light btn-lg px-5 py-3 fw-bold fs-5">📞 Call Now +254 709 004 600</a>
+                        <a href="https://wa.me/254709004600?text=Hello%2C%20I%20need%20domestic%20cleaning%20in%20Nairobi%20quote" class="btn btn-success btn-lg px-5 py-3 fw-bold fs-5">💬 WhatsApp Quote</a>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional domestic cleaning in Nairobi team" class="img-fluid rounded shadow-lg mt-5" style="max-height: 400px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About Best Cleaning Services</h2>
+                    <p class="lead">Proudly based in Westlands, Nairobi, Best Cleaning Services is your premier choice for domestic cleaning in Nairobi. Established in 2010, we serve thousands of homes yearly with unmatched domestic cleaning in Nairobi quality. Our trained, uniformed teams use eco-friendly products for safe, thorough domestic cleaning in Nairobi. We cover all Nairobi suburbs – Kileleshwa, Lavington, Kilimani, Karen, Syokimau, Runda, Kiambu Road. Flexible scheduling for busy professionals needing reliable domestic cleaning in Nairobi. 100% satisfaction guarantee on every domestic cleaning in Nairobi job. Licensed, insured, background-checked staff. (162 words)</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Best Cleaning Services team Westlands Nairobi" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 section-bg">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Core Domestic Cleaning Services</h2>
+                <p class="lead text-muted">6 essential domestic cleaning in Nairobi solutions tailored for Nairobi homes</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">1</div><h5>Regular House Cleaning</h5><p>Weekly/bi-weekly maintenance. Dusting, vacuuming, mopping, bathrooms, kitchen surfaces. From KSh 4,200. Perfect domestic cleaning in Nairobi routine.</p></div></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">2</div><h5>Deep Cleaning</h5><p>Inside cabinets, appliances, walls, grout scrubbing. Seasonal refresh domestic cleaning in Nairobi. From KSh 9,500.</p></div></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">3</div><h5>Move-In / Move-Out</h5><p>Complete turnover cleaning for tenants/landlords. Ovens, fridges, light fixtures. From KSh 12,000 domestic cleaning in Nairobi.</p></div></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">4</div><h5>Post-Construction Cleaning</h5><p>Dust/debris removal after renovations. Windows, floors, surfaces. From KSh 15,000 domestic cleaning in Nairobi.</p></div></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">5</div><h5>Kitchen Deep Clean</h5><p>Grease removal, oven, fridge, cabinets, extractor hoods. From KSh 6,800 domestic cleaning in Nairobi.</p></div></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body text-center"><div class="display-6 text-primary mb-3">6</div><h5>Bathroom Sanitization</h5><p>Grout cleaning, fixtures, mirrors, mould removal. Germ-free domestic cleaning in Nairobi. From KSh 5,500.</p></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Transparent Pricing Tiers</h2>
+                <p class="lead text-muted">Domestic cleaning in Nairobi rates 2026 • All prices include VAT • Free quotes</p>
+            </div>
+            <div class="row g-4 mb-5 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="price-card text-center">
+                        <div class="price-header">
+                            <h4 class="mb-2">Regular Cleaning</h4>
+                            <p class="mb-0 opacity-90">Weekly / Bi-weekly</p>
+                        </div>
+                        <div class="p-4">
+                            <div class="price-amount">KSh <span class="fs-1">4,200</span><sup>+</sup></div>
+                            <ul class="list-unstyled mt-4 mb-4">
+                                <li>✓ Dusting & vacuuming</li>
+                                <li>✓ Bathrooms & kitchen</li>
+                                <li>✓ Mopping all floors</li>
+                                <li>✓ Waste removal</li>
+                            </ul>
+                            <a href="#book" class="btn btn-primary w-100">Book Regular</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="price-card text-center position-relative shadow-lg border-primary">
+                        <span class="badge badge-popular fs-6 px-3 py-2">⭐ Most Popular</span>
+                        <div class="price-header">
+                            <h4 class="mb-2">Deep Cleaning</h4>
+                            <p class="mb-0 opacity-90">One-time thorough clean</p>
+                        </div>
+                        <div class="p-4">
+                            <div class="price-amount">KSh <span class="fs-1">9,500</span><sup>+</sup></div>
+                            <ul class="list-unstyled mt-4 mb-4">
+                                <li>✓ Inside cabinets/appliances</li>
+                                <li>✓ Wall & grout cleaning</li>
+                                <li>✓ Baseboards & windowsills</li>
+                                <li>✓ High-reach dusting</li>
+                            </ul>
+                            <a href="#book" class="btn btn-primary w-100">Book Deep Clean</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="price-card text-center">
+                        <div class="price-header">
+                            <h4 class="mb-2">Move-In / Move-Out</h4>
+                            <p class="mb-0 opacity-90">Property handover</p>
+                        </div>
+                        <div class="p-4">
+                            <div class="price-amount">KSh <span class="fs-1">12,000</span><sup>+</sup></div>
+                            <ul class="list-unstyled mt-4 mb-4">
+                                <li>✓ Full deep clean + extras</li>
+                                <li>✓ Ovens, fridges inside</li>
+                                <li>✓ Light fixtures & vents</li>
+                                <li>✓ Final walkthrough</li>
+                            </ul>
+                            <a href="#book" class="btn btn-primary w-100">Book Move-In/Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr><th>Service</th><th>Studio/1-Bed</th><th>2-Bed Apt</th><th>3-4 Bed House</th><th>5+ Bed Villa</th><th>Per Extra</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Regular Cleaning</strong></td><td>KSh 4,200-5,000</td><td>KSh 5,200-6,500</td><td>KSh 7,000-9,500</td><td>KSh 11,000+</td><td>Balcony KSh 1,200</td></tr>
+                        <tr><td><strong>Deep Cleaning</strong></td><td>KSh 9,500-11,000</td><td>KSh 12,000-14,500</td><td>KSh 16,500-22,000</td><td>KSh 25,000+</td><td>Oven KSh 3,500</td></tr>
+                        <tr><td><strong>Move-In/Out</strong></td><td>KSh 12,000-14,500</td><td>KSh 15,500-18,500</td><td>KSh 20,000-28,000</td><td>KSh 32,000+</td><td>Carpet KSh 4,000</td></tr>
+                        <tr><td><strong>Post-Construction</strong></td><td>KSh 15,000-18,000</td><td>KSh 20,000-25,000</td><td>KSh 28,000-38,000</td><td>KSh 45,000+</td><td>Dust Removal KSh 5,000</td></tr>
+                        <tr class="table-primary"><td><strong>Kitchen Deep Only</strong></td><td colspan="4">KSh 6,800-10,500</td><td>-</td></tr>
+                        <tr class="table-primary"><td><strong>Bathroom Deep Only</strong></td><td colspan="4">KSh 5,500-8,500</td><td>-</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-info mt-4">
+                <strong>💡 Pricing Notes:</strong> 10% discount 4+ recurring | KSh 1,000-2,500 outskirts travel | Minimum 3 hours | All prices VAT inclusive
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="py-5 section-bg">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Why Choose Us for Domestic Cleaning in Nairobi</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">✓</div><h5>Trained & Vetted Team</h5><p>Uniformed staff with police clearance. 2+ years experience domestic cleaning in Nairobi.</p></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">💰</div><h5>No Hidden Fees</h5><p>Transparent domestic cleaning in Nairobi pricing. Free quotes, no surprises.</p></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">🌿</div><h5>Eco-Friendly Products</h5><p>Non-toxic, pet/family safe cleaning agents for domestic cleaning in Nairobi.</p></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">⏰</div><h5>On-Time Guarantee</h5><p>5-min grace period. Punctual domestic cleaning in Nairobi across all suburbs.</p></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">✅</div><h5>Satisfaction Guaranteed</h5><p>Free re-clean within 48hrs if not 100% happy with domestic cleaning in Nairobi.</p></div></div>
+                <div class="col-md-6 col-lg-4"><div class="card h-100 text-center p-4"><div class="display-6 text-primary mb-3">📍</div><h5>Westlands Based</h5><p>Fast response domestic cleaning in Nairobi. Same-day bookings available.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-5 text-center" style="background: linear-gradient(135deg, var(--primary-dark), var(--primary-light)); color: #fff;">
+        <div class="container">
+            <h2 class="display-4 fw-bold mb-4">Ready for Spotless Clean Home?</h2>
+            <p class="lead fs-3 mb-5">Book domestic cleaning in Nairobi now. Professional service starts at KSh 4,200. Fast, reliable, affordable.</p>
+            <a href="#book" class="btn btn-light btn-lg px-5 py-3 fw-bold fs-5 me-3">🚀 Book Online</a>
+            <a href="tel:+254709004600" class="btn btn-outline-light btn-lg px-5 py-3 fw-bold fs-5">📞 Call Now</a>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">FAQs - Domestic Cleaning in Nairobi</h2>
+                <p class="lead">Top 10 questions about domestic cleaning in Nairobi services</p>
+            </div>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1" itemprop="name">1. How much does domestic cleaning in Nairobi cost?</button>
+                    </h2>
+                    <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="accordion-body" itemprop="text">Regular domestic cleaning in Nairobi KSh 4,200+ (1-bed). Deep cleaning KSh 9,500+. Move-in/out KSh 12,000+. Exact quote after site visit. 10% recurring discount. (58 words)</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">2. Do you provide domestic cleaning in all Nairobi areas?</button></h2>
+                    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes! Westlands, Kileleshwa, Lavington, Kilimani, Karen, Runda, Syokimau, Kiambu, Thika Road. KSh 1,000-2,500 outskirts travel fee. Fast domestic cleaning in Nairobi response. (52 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">3. Are your cleaners insured and vetted?</button></h2>
+                    <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">100% uniformed, background-checked, insured staff. Public liability & worker compensation covered. Safe, reliable domestic cleaning in Nairobi. (42 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">4. What products do you use for domestic cleaning in Nairobi?</button></h2>
+                    <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Eco-friendly, non-toxic, biodegradable cleaners. Safe for kids, pets, asthma sufferers. Bring own products option +KSh 500. (38 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">5. Can I book same-day domestic cleaning in Nairobi?</button></h2>
+                    <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes! Same-day domestic cleaning in Nairobi available Westlands-CBD. 2hr notice suburbs. Call/WhatsApp instant booking confirmation. (32 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">6. What does regular domestic cleaning in Nairobi include?</button></h2>
+                    <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Dusting, vacuuming, mopping, bathroom/kitchen surfaces, mirrors, waste removal. 3hr minimum. Weekly/bi-weekly/monthly schedules. (28 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7">7. Do you clean ovens and fridges?</button></h2>
+                    <div id="q7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes! Deep cleans include inside ovens/fridges +KSh 3,500 each. Regular service exteriors only. Domestic cleaning in Nairobi specialist. (32 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8">8. What's your cancellation policy?</button></h2>
+                    <div id="q8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Free cancellation 24hr notice. 50% fee <24hr. No-show full fee. Rescheduling free once. Flexible domestic cleaning in Nairobi. (28 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9">9. Do you do carpet/upholstery cleaning?</button></h2>
+                    <div id="q9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Steam cleaning KSh 4,000/room, mattress KSh 3,500. Dry carpet KSh 2,500/room. Anti-allergen treatment available. (24 words)</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10">10. What's your satisfaction guarantee?</button></h2>
+                    <div id="q10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Free re-clean within 48hrs if not 100% satisfied. Quality assured domestic cleaning in Nairobi. Your happiness guaranteed! (26 words)</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-5 section-bg">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">What Clients Say</h2>
+                <p class="lead">3.9⭐ average from 1,247 domestic cleaning in Nairobi reviews</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex mb-3">
+                            <div class="text-warning me-2">⭐⭐⭐⭐⭐</div>
+                            <span class="badge bg-success ms-auto">5★</span>
+                        </div>
+                        <p>"Best domestic cleaning in Nairobi ever! Transformed my Kilimani 2-bed apartment. Deep clean worth every shilling. Punctual, thorough, polite team. Will book monthly!"</p>
+                        <strong>— Sarah M., Kilimani</strong>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex mb-3">
+                            <div class="text-warning me-2">⭐⭐⭐⭐⭐</div>
+                            <span class="badge bg-success ms-auto">5★</span>
+                        </div>
+                        <p>"Move-out clean for Karen house was perfect. Landlord gave full deposit back! Domestic cleaning in Nairobi at its finest. Oven, fridge sparkling inside."</p>
+                        <strong>— James K., Karen</strong>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex mb-3">
+                            <div class="text-warning me-2">⭐⭐⭐⭐⭐</div>
+                            <span class="badge bg-success ms-auto">5★</span>
+                        </div>
+                        <p>"Weekly domestic cleaning in Nairobi Westlands. Eco-products safe for my toddler. Reliable 8AM arrival every Thursday. Highly recommend!"</p>
+                        <strong>— Linda W., Westlands</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="book" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="card shadow-xl border-0 overflow-hidden">
+                        <div class="card-header bg-primary text-white text-center py-5" style="background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));">
+                            <h2 class="display-5 fw-bold mb-3">Book Domestic Cleaning in 60 Seconds</h2>
+                            <p class="lead mb-0">Fast domestic cleaning in Nairobi booking • Instant WhatsApp confirmation • Free quote</p>
+                        </div>
+                        <div class="card-body p-5">
+                            <form action="https://formsubmit.co/info@bestcleaningservices.co.ke" method="POST">
+                                <input type="hidden" name="_subject" value="New Domestic Cleaning Booking - Nairobi">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_next" value="https://wa.me/254709004600?text=Booking+confirmed!+%F0%9F%8F%86">
+                                <input type="hidden" name="_autoresponse" value="Thank you for booking domestic cleaning in Nairobi! Our team will call you within 15 mins to confirm. Best Cleaning Services.">
+                                <div class="row g-4">
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Full Name *</label><input type="text" class="form-control form-control-lg" name="name" required></div>
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Phone *</label><input type="tel" class="form-control form-control-lg" name="phone" placeholder="+254 7XX XXX XXX" required></div>
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Service Type *</label>
+                                        <select class="form-select form-select-lg" name="service" required>
+                                            <option value="">Select service</option>
+                                            <option>Regular Cleaning (from KSh 4,200)</option>
+                                            <option>Deep Cleaning (from KSh 9,500) ⭐</option>
+                                            <option>Move-In / Move-Out (from KSh 12,000)</option>
+                                            <option>Post-Construction (from KSh 15,000)</option>
+                                            <option>Kitchen Deep Only (KSh 6,800+)</option>
+                                            <option>Bathroom Deep Only (KSh 5,500+)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Property Size *</label><input type="text" class="form-control form-control-lg" name="property" placeholder="2-bed apartment, 3-bed house Westlands etc" required></div>
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Preferred Date *</label><input type="date" class="form-control form-control-lg" name="date" required min="2026-01-15"></div>
+                                    <div class="col-md-6"><label class="form-label fw-bold fs-5">Time Slot</label>
+                                        <select class="form-select form-select-lg" name="time">
+                                            <option>08:00 - 12:00 (Morning)</option>
+                                            <option>12:00 - 16:00 (Afternoon)</option>
+                                            <option>16:00 - 20:00 (Evening)</option>
+                                            <option>Anytime (Flexible)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12"><label class="form-label fw-bold fs-5">Full Address / Notes</label><textarea class="form-control" name="address" rows="4" placeholder="Full address, floor, parking info, special requests, pet info etc"></textarea></div>
+                                    <div class="col-12 text-center mt-4">
+                                        <button type="submit" class="btn btn-primary btn-lg px-6 py-4 fs-4 fw-bold w-100 w-md-50">🚀 Submit Booking Request</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 section-bg">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <h2 class="display-5 fw-bold mb-5">Contact Best Cleaning Services</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-4 text-center">
+                                <div class="display-4 text-primary mb-3">📞</div>
+                                <h5>Phone</h5>
+                                <a href="tel:+254709004600" class="h3 fw-bold text-decoration-none">+254 709 004 600</a>
+                                <p class="text-muted">24/7 WhatsApp support</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-4 text-center">
+                                <div class="display-4 text-primary mb-3">✉️</div>
+                                <h5>Email</h5>
+                                <a href="mailto:info@bestcleaningservices.co.ke" class="h5 fw-bold text-decoration-none">info@bestcleaningservices.co.ke</a>
+                                <p class="text-muted">Response within 2 hours</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-4 text-center">
+                                <div class="display-4 text-primary mb-3">📍</div>
+                                <h5>Location</h5>
+                                <p class="h6 fw-bold mb-1">Westlands, Nairobi</p>
+                                <p class="text-muted mb-0">Serving Nairobi County</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">🏠 Best Cleaning Services</h5>
+                    <p class="mb-3">Westlands, Nairobi | Professional domestic cleaning in Nairobi experts since 2010. Licensed • Insured • Eco-friendly.</p>
+                    <p>© 2026 All Rights Reserved | <a href="#" class="text-white text-decoration-none">Privacy Policy</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Navigation</h6>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="#hero" class="text-white text-decoration-none">Home</a>
+                        <a href="#services" class="text-white text-decoration-none">Services</a>
+                        <a href="#pricing" class="text-white text-decoration-none">Pricing</a>
+                        <a href="#book" class="text-white text-decoration-none">Book Now</a>
+                        <a href="#contact" class="text-white text-decoration-none">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="tel:+254709004600" class="btn btn-primary d-flex align-items-center justify-content-center shadow-lg" title="Call Now"><i class="bi bi-telephone fs-5"></i></a>
+        <a href="https://wa.me/254709004600?text=Hi%2C%20need%20domestic%20cleaning%20quote%20in%20Nairobi%20🏠" class="btn btn-success d-flex align-items-center justify-content-center shadow-lg" title="WhatsApp"><i class="bi bi-whatsapp fs-5"></i></a>
+    </div>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
