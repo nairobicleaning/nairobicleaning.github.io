@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Construction Cleaning - Bestcare Cleaning Nairobi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="py-5" style="background-color: #f8f9fa;" itemscope itemtype="https://schema.org/Service">
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- Left Column -->
+                <div class="col-lg-5 mb-4">
+                    <div class="text-center mb-4">
+                        <img 
+                            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop" 
+                            alt="Post Construction Cleaning Service in Nairobi"
+                            class="img-fluid rounded shadow"
+                            style="max-height: 250px; object-fit: cover;"
+                            itemprop="image"
+                        />
+                    </div>
+                    
+                    <p class="text-uppercase text-muted small mb-2">WHAT WE DO?</p>
+                    <h2 class="display-6 fw-bold mb-4" itemprop="name">Professional Post Construction Cleaning in Nairobi By Bestcare Cleaning</h2>
+                    
+                    <div itemprop="description">
+                        <p class="text-muted mb-4">
+                            Transform your newly constructed or renovated space into a pristine, move-in ready environment. Bestcare Cleaning specializes in comprehensive post-construction cleaning services throughout Nairobi, Kenya. Our experienced team removes all debris, dust, and construction residue, ensuring your property sparkles from floor to ceiling.
+                        </p>
+                    </div>
+                    
+                    <div itemprop="provider" itemscope itemtype="https://schema.org/LocalBusiness">
+                        <meta itemprop="name" content="Bestcare Cleaning">
+                        <meta itemprop="address" content="Nairobi, Kenya">
+                        <meta itemprop="areaServed" content="Nairobi, Kenya">
+                    </div>
+                    
+                    <button class="btn btn-primary btn-lg rounded-pill px-4">More Details</button>
+                </div>
+
+                <!-- Right Column - Service Cards -->
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <!-- Card 1: Debris Removal -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-dumpster text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Debris & Waste Removal</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Complete removal of construction debris, packaging materials, wood scraps, and leftover building materials from all areas.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Dust & Particle Cleaning -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-wind text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Dust & Particle Cleaning</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Thorough removal of construction dust from surfaces, corners, vents, and hard-to-reach areas using specialized equipment.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Window & Glass Cleaning -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-window-maximize text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Window & Glass Cleaning</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Professional cleaning of all windows, glass surfaces, and mirrors, removing paint splatters, stickers, and protective films.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Floor Deep Cleaning -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-broom text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Floor Deep Cleaning</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Deep cleaning and polishing of all floor types including tiles, hardwood, concrete, and vinyl, removing grout haze and residue.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 5: Fixture & Appliance Cleaning -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-sink text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Fixture & Appliance Cleaning</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Detailed cleaning of kitchen and bathroom fixtures, cabinets, countertops, and installed appliances to showroom condition.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 6: Paint & Stain Removal -->
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4" itemscope itemtype="https://schema.org/Service">
+                                <div class="mb-3">
+                                    <i class="fas fa-paint-roller text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3" itemprop="name">Paint & Stain Removal</h5>
+                                <p class="card-text text-muted small" itemprop="description">
+                                    Safe removal of paint splatters, adhesive residue, cement stains, and other construction marks from all surfaces.
+                                </p>
+                                <a href="#" class="text-primary text-decoration-none fw-semibold small">
+                                    Learn More →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
