@@ -1,10 +1,10 @@
-# Cleaning Services in Nairobi
+# cleaning Services in Nairobi
 
 Professional hygiene solutions have become essential for homes and businesses, making **cleaning services in Nairobi** a critical part of maintaining healthy and productive environments. With increasing urbanization and busy lifestyles, many individuals and organizations rely on expert cleaners to ensure high standards of cleanliness, sanitation, and presentation.
 
 For reliable and professional solutions, visit [Nairobi Cleaning Services](https://nairobicleaningservice.mobirisesite.com/) to explore a range of services tailored to residential and commercial needs.
 
-## Scope of Cleaning Services
+## scope of Cleaning Services
 
 Modern **cleaning services in Nairobi** cover a wide range of tasks designed to maintain hygiene, improve indoor air quality, and enhance the appearance of spaces. These services are customized based on the type of property and level of cleaning required.
 
