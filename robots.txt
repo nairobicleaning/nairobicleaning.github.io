@@ -1,3 +1,3 @@
-Sitemap: https://nairobicleaning.github.io/sitemap/
+Sitemap: https://nairobicleaning.github.io/sitemap.xml
 User-agent: *
 Disallow:
